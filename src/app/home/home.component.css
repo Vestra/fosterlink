@@ -1,0 +1,24 @@
+#first-container {
+    background: #3b5998;
+    font: white;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: center;
+    padding: 10px 100px 10px 10px;
+    border-color: black;
+    border: 5px 5px 5px 5px;
+}
+
+.title {
+    color: white;
+    font-size: 100px;
+}
+
+.sub-title {
+    color: white;
+    font-size: 50px;
+}
+
+#second-container {
+    background: #3b5998;
+}
