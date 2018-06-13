@@ -1,24 +1,246 @@
-#first-container {
-    background: #3b5998;
-    font: white;
-    border-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    position: center;
-    padding: 10px 100px 10px 10px;
-    border-color: black;
-    border: 5px 5px 5px 5px;
+body {
+    background-color: #E6E6EA;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.title {
-    color: white;
-    font-size: 100px;
+.jumbotron {
+    padding: 10rem 3rem;
+    padding-bottom: 13rem;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: transparent;
+    background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-029-everlasting-sky.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 100%;
+    border-style: outset;
+
 }
 
-.sub-title {
+#mentor-container {
+    border-style: outset;
+    margin-top: 100px;
+}
+
+#our-mission-title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 3px 30px 100px 10px;
     color: white;
+}
+
+#mentor-title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 3px 30px 100px 10px;
+    color: white;
+}
+
+#first-jumbotron {
+    background-image: url(https://thelovelydrawer.com/wp-content/uploads/2016/08/palm-love-freebies-desktop-wallpapers-tropical-1.jpg);
+    position: relative;
+    background-size: cover;
+    position: 100%;
+}
+
+#second-jumbotron {
+    padding: 1rem 3rem;
+    padding-bottom: 13rem;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#third-jumbotron {
+    padding: 10rem 3rem;
+    padding-bottom: 13rem;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.lead-2 {
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 
+                 0 2px 0 #c9c9c9,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+}
+
+.jumbotron > h1 {
+    font-size: 10rem;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 1px 0 #ccc, 
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+}
+
+#fosterlink-header {
+    font-size: 10rem;    
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 1px 0 #ccc, 
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+}
+.jumbotron > h1, h2, h3 {
+    text-align: center;
+}
+
+.scroll-arrow {
+    position: relative;
+    left: 50%;
+    font-size: 50px;
+    text-decoration: none;
+    height: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+    
+}
+
+a {
+    text-shadow: 0 1px 0 #ccc, 
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+}
+a:hover {
+    color: #ccc;
+    text-shadow: 0 1px 0 #ccc, 
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+}
+
+.fa-caret-down {
     font-size: 50px;
 }
 
-#second-container {
-    background: #3b5998;
+.caret {
+    position: relative;
+}
+
+.mission-statement {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.mission-statement-text {
+    text-align: left;
+    padding: 30px 30px 30px 30px;
+}
+
+.cover {
+    background-color: #E6E6EA;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    flex: 1;
+    width: 50%;
+    height: 50%;
+}
+
+.img {
+   flex: 1;
+    width: 100px;
+    height: 100px;
+}
+.mentor-1 {
+    width: 100%;
+    height: calc(100vh - 100px);
+
+}
+
+.move {
+    padding-left: 100px;
+    height: 50%;
+    width: 50%;
+}
+
+#slide-left {
+    left: 0px;
+    height: calc(100vh - 100px);
+    display: block;
+    position: absolute;
+    padding: 5vw;
+    box-sizing: border-box;
+    font-size: 50px;
+    z-index: 10;
+    
+}
+
+#slide-left i {
+    position: relative;
+    display: inline-block;
+    top: calc(50% - 25px);
+}
+.container{
+    display: flex;
+    background-color: #E6E6EA;
+}
+
+#slide-right {
+    right: 0px;
+    height: calc(100vh - 100px);
+    display: block;
+    position: absolute;
+    padding: 5vw;
+    box-sizing: border-box;
+    font-size: 50px;
+    z-index: 10;
+}
+
+#slide-right i {
+    display: inline-block;
+    position: relative;
+    top: calc(50% - 25px);
 }

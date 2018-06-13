@@ -12,6 +12,7 @@ import { MentorsComponent } from './mentors/mentors.component';
 import { FosterYouthComponent } from './foster-youth/foster-youth.component';
 import { JoinUsComponent } from './join-us/join-us.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     MentorsComponent,
     FosterYouthComponent,
     JoinUsComponent,
-    ContactComponent
+    ContactComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

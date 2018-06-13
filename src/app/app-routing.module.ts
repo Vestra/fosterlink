@@ -6,7 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { OurMissionComponent } from './our-mission/our-mission.component';
 import { MentorsComponent } from './mentors/mentors.component';
 import { FosterYouthComponent } from './foster-youth/foster-youth.component';
-import { JoinUsComponent } from './join-us/join-us.component';
+import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
 
 
@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'our-mission', component: OurMissionComponent },
   { path: 'mentors', component: MentorsComponent },
   { path: 'foster-youth', component: FosterYouthComponent },
-  { path: 'join-us', component: JoinUsComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: 'home' }
 ];
