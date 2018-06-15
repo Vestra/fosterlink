@@ -11,7 +11,6 @@ body {
     margin-left: 3rem;
     margin-right: 3rem;
     background-color: transparent;
-    background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-029-everlasting-sky.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -20,7 +19,7 @@ body {
 
 }
 
-#mentor-container {
+#mentor-container > h1 > h2 > p {
     border-style: outset;
     margin-top: 100px;
 }
@@ -28,38 +27,39 @@ body {
 #our-mission-title {
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
-    padding: 3px 30px 100px 10px;
+    padding-bottom: 1px;
     color: white;
 }
 
 #mentor-title {
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
-    padding: 3px 30px 100px 10px;
+    padding: 1px;
     color: white;
 }
 
 #first-jumbotron {
-    background-image: url(https://thelovelydrawer.com/wp-content/uploads/2016/08/palm-love-freebies-desktop-wallpapers-tropical-1.jpg);
+    background: rgba(0, 0, 0, 0.25),;
+    background-image: url(https://cswenterprise.co.uk/wp-content/uploads/2017/12/mentor-1000x500.jpg);
     position: relative;
     background-size: cover;
     position: 100%;
 }
 
 #second-jumbotron {
-    padding: 1rem 3rem;
-    padding-bottom: 13rem;
-    margin-top: 30px;
-    margin-bottom: auto;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    margin-top: 1px;
+    margin-bottom: 5px;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
 #third-jumbotron {
-    padding: 10rem 3rem;
-    padding-bottom: 13rem;
-    margin-top: 30px;
-    margin-bottom: auto;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    margin-top: 1px;
+    margin-bottom: 5px;
     margin-left: 3rem;
     margin-right: 3rem;
 }
@@ -169,11 +169,11 @@ a:hover {
 
 .mission-statement {
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding-top: 20px;
 }
 
 .mission-statement-text {
-    text-align: left;
+    text-align: center;
     padding: 30px 30px 30px 30px;
 }
 
